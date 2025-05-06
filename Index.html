@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV - Pâtissier et Boulanger</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      line-height: 1.6;
+      body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #fdfdfd;
+    }
+    .langues {
+      max-width: 600px;
+      margin: 2px;
+    }
+    .langue {
+      margin-bottom: 20px;
+    }
+    .langue h4 {
+      margin: 0 0 5px;
+      font-weight: bold;
+    }
+    .barre {
+      width: 100%;
+      background-color: #e0e0e0;
+      border-radius: 25px;
+      overflow: hidden;
+      height: 20px;
+    }
+
+    .niveau {
+      height: 100%;
+      text-align: right;
+      padding-right: 10px;
+      color: white;
+      line-height: 20px;
+      font-size: 14px;
+      border-radius: 25px;
+    }
+    .excellent { width: 100%; background-color: #2ecc71; }  /* Vert */
+    .bon       { width: 75%;  background-color: #f39c12; }  /* Orange foncé */
+    .moyen     { width: 50%;  background-color: #e67e22; }  /* Orange clair */
+    .debutant  { width: 25%;  background-color: #e74c3c; }  /* Rouge */
+
+
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 50px auto;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .left {
+      background-color:#e67e22;
+      color: white;
+      width: 30%;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px 0 0 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .left img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .left h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .left p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .left .contact-info span {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .left .contact-info {
+      margin-top: 20px;
+    }
+
+    .left .contact-info span a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .right {
+      width: 70%;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+
+    .right h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .section h3 {
+      font-size: 24px;
+      color: #2c3e50;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      border-bottom: 2px solid #3498db;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .section p {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #666;
+    }
+
+    .section ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    .section ul li {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .section .profile {
+      font-style: italic;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .documents {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .documents img {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        width: 100%;
+        border-radius: 0;
+      }
+
+      .left {
+        border-radius: 10px 10px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Partie gauche -->
+    <div class="left">
+      <img src="slouma.jpg" alt="Photo de profil">
+      <h2>Chebbi Abdesslem</h2>
+      <p><strong>Pâtissier & Boulanger</strong></p>
+      <p>Créateur passionné de douceurs artisanales et pains d’exception.</p><br>
+      <div class="contact-info">
+        <p style="color: darkgreen;">Contactez moi au:</p>
+        <span>📧Email : <a href="">Sloumachebbi118@gmail.com</a></span>
+        <span>📞Téléphone : +216 90 783 056 / +216 97 653 421</span>
+        <span>📍Adresse : chabbia,tozeur,tunisie,2200</span>
+      </div>
+      
+      <div class="compétences ">
+        <p style="color: darkgreen;">Résumé des compétences:</p>
+        <ul style="list-style-type: disc; color:black;">
+            <li style="color: black;">Créatif et innovant.</li>
+            <li style="color: black;">Bonne santé physique.
+            </li>
+            <li style="color: black;">Etre capable de travailler en position deboot pendant des heures et de soulever des objets lourds.
+            </li>
+            <li style="color: black;">Aussi bien en travail individuel
+            </li>
+            <li style="color: black;">qu'en groupe. </li>
+            <li style="color: black;">Capable de créer une variété des meilleures recettes préférées. </li>
+            <li style="color: black;">Secouriste au Emissant Rouge Tunisien
+            </li>
+          </ul>
+        
+      </div>
+      <div class="langues">
+        <p style="color: darkgreen;">Compétences Linguistiques:</p>
+    
+        <div class="langue">
+          <h4>Arabe</h4>
+          <div class="barre"><div class="niveau excellent">Excellent</div></div>
+        </div>
+        <div class="langue">
+          <h4>Anglais</h4>
+          <div class="barre"><div class="niveau bon">Bon</div></div>
+        </div>
+    
+        <div class="langue">
+          <h4>Français</h4>
+          <div class="barre"><div class="niveau moyen">Moyen</div></div>
+        </div>
+    
+        <div class="langue">
+          <h4>Allemand</h4>
+          <div class="barre"><div class="niveau debutant">Débutant</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partie droite -->
+    <div class="right">
+      <h1>Chebbi Abdesslem</h1>
+      <h2 style="color:violet;"><strong>PATISSIER & BOULANGER</strong></h2>
+      
+
+      <!-- Profil -->
+      <div class="section">
+        <h3>Profil Personnel</h3>
+        <p class="profile">Avoir une grande motivation et une grande passion dans la transformation de divers types d'aliments.
+        </p>
+      </div>
+
+      <!-- Éducation -->
+      <div class="section">
+        <h3>Histoire de l'Éducation</h3>
+        <p style="color:darkred">🎓 Diplôme en Pâtisserie et Boulangerie</p>
+        <p><strong>🔵Ecole hoteliere de tozeur </strong></p>
+        <p style="color: gray;">Brevet de Technicien Professionnel (BTP) Nov 2020 Jun 2022 </p>
+        <p style="color: black;" >Etudiez les arts culinaires et apprenez le français, l'anglais et l'allemand, apprenez les bases
+
+            importantes en cuisine, sécurité culinaire, arts de la communication, travail en équipe et droit des affaires avec 6 mois de formation
+            </p>
+            <p><strong>🔵Centre chebbi de formation et touristique et paramedical tozeur </strong></p>
+            <p style="color: gray;">Brevet de Technicien Professionnel (BTP) May 2020-Jun 2020 </p>
+            <p style="color: black;" >Etudiez les arts culinaires et apprenez les bases importantes en cuisine, sécurité culinaire </p>
+      </div>
+
+      <!-- Stages -->
+      <div class="section">
+        <h3  >🍞Stage Historique</h3>
+        <ul style="list-style-type: disc; color:black;">
+            <li style="color: black;">Hotel palm beach | 31 dec 2018-31 Mar 2019</li>
+            <li style="color: black;">Hotel hammamet beach | 03 Juil 2021-31 Aout 2021</li>
+            <li style="color: black;">Frozen palm | 13 Mai 2021 17 April 2021  </li>
+            <li style="color: black;">Anantara Sahara Tozeur 20 Dec 2021-12 Jan 2022   </li>
+            <li style="color: black;">Anantara Sahara Tozeur 28 Mars 2021-24 Avril 2022 </li>
+            <li style="color: black;">Hotel club thapsus mahdia | 29 Juin 2022-15 Juill 2022  </li>
+          </ul>
+      </div>
+
+      <!-- Expérience -->
+      <div class="section">
+        <h3>🍰 🥐 Expérience Professionnelle</h3>
+        <p><strong>🍰 Pâtissier </strong> </p>
+        <ul>
+            <p><strong>commis patisserie  </strong></p>
+          <li style="color: black;">Hotel palmerie tozeur Sep 2019 Nov 2019
+        </li>
+          <p><strong>commis patisserie </strong></p>
+          <li style="color: black;">Salammbo hammamet | Jul 2022-Oct 2022 </li>
+          <p><strong>commis cuisine cafétéria  </strong></p>
+          <li style="color: black;">Lte the orange garden hammamet | Oct 2022 Fev 2023
+        </li>
+        <p><strong>commis patisserie </strong></p>
+          <li style="color: black;">Radisson sfax Apr 2022 Jun 2023 </li>
+          <p><strong>patissier   </strong></p>
+          <li style="color: black;">Hilton skanes monastir | Jun 2023 - Oct 2023   </li>
+          <p><strong>patissier</strong></p>
+          <li style="color: black;">Salammbo hammamet | 19 april 2024-12 jun 2024</li>
+          <p><strong>🥐 Boulanger</strong></p>
+          <li style="color: black;">MARILLA hammamet | 12 jun 2024-09 aout 2024</li>
+          <p><strong>patissier</strong></p>
+          <li style="color: black;">One Resort Premium | 09 aout 2024-11 fev 2025</li>
+        </ul>
+
+       
+        
+        <ul>
+         
+          
+        </ul>
+      </div>
+
+      
+          
+      </div>
+    </div>
+  </div>
+ 
+  
+
+</body>
+</html>
